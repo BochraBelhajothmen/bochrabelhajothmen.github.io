@@ -1,0 +1,53 @@
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 3rem 1.5rem;
+}
+
+.project-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card-footer {
+    margin-top: auto;
+}
+
+.timeline .box {
+    transition: transform 0.3s ease;
+}
+
+.timeline .box:hover {
+    transform: translateY(-5px);
+}
+
+.contact-buttons .button {
+    margin: 0.5rem;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.contact-form .field {
+    margin-bottom: 1.5rem;
+}
+
+
+.footer {
+    padding: 1.5rem 1.5rem;  
+    margin-top: 1rem;        
+}
+
+.footer p {
+    margin-bottom: 0.5rem;  
+}

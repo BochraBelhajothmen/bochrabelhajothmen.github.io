@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    
+    <section class="hero is-medium event-header">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title has-text-white">
+                    Tech Conference 2025
+                </h1>
+                <h2 class="subtitle has-text-white">
+                    Join us for the biggest tech event of the year
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-two-thirds">
+                    <div class="box registration-form">
+                        <h3 class="title is-3 has-text-centered mb-6">Registration Form</h3>
+                        <form id="registrationForm">
+                            
+                            <div class="field">
+                                <label class="label">Full Name</label>
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="Enter your full name" required>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <input class="input" type="email" placeholder="Enter your email" required>
+                                </div>
+                            </div>
+
+                            <div class="columns">
+                                <div class="column">
+                                    <div class="field">
+                                        <label class="label">Phone Number</label>
+                                        <div class="control">
+                                            <input class="input" type="tel" placeholder="Enter your phone number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="field">
+                                        <label class="label">Company/Organization</label>
+                                        <div class="control">
+                                            <input class="input" type="text" placeholder="Enter your company name">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="field">
+                                <label class="label">Ticket Type</label>
+                                <div class="control">
+                                    <div class="select is-fullwidth">
+                                        <select required>
+                                            <option value="">Select ticket type</option>
+                                            <option value="standard">Standard Pass (100 TND )</option>
+                                            <option value="vip">VIP Pass (200 TND )</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="field">
+                                <label class="label">Workshop Selection (Optional)</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        Web Development Masterclass (+150 TND )
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        Cloud Computing Essentials (+150 TND )
+                                    </label>
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        AI & Machine Learning Workshop (+150 TND )
+                                    </label>
+                                </div>
+                            </div>
+
+                           
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox">
+                                        <input type="checkbox" required>
+                                        I agree to the <a href="#">terms and conditions</a>
+                                    </label>
+                                </div>
+                            </div>
+
+                            
+                            <div class="form-footer">
+                                <button class="button is-link is-fullwidth" type="submit">Register Now</button>
+                                <a href="index.html" class="button is-light mt-3">Back to Portfolio</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
